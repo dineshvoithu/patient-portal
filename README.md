@@ -64,6 +64,24 @@ This starts the frontend at `http://localhost:5173`.
 
 ---
 
+### 🗄️ SQL Setup (MySQL)
+
+1. Create a new database named:
+
+```sql
+CREATE DATABASE patient_portal;
+```
+
+2. Switch to the new database:
+
+```sql
+USE patient_portal;
+```
+
+> ✅ The table (`documents`) and structure will be automatically created by Spring Boot using JPA entity mapping when the application starts.
+
+---
+
 ## 🔗 API Endpoints
 
 ### 📥 Upload a File
